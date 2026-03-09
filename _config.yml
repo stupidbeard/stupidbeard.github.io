@@ -1,0 +1,19 @@
+title: ""
+description: ""
+baseurl: ""
+url: ""
+
+# Build settings
+theme: minima
+markdown: kramdown
+
+# Permalink structure — clean URLs by date
+permalink: /:year/:month/:day/
+
+# Show all posts on the home page
+paginate: 50
+
+# Exclude dev files from build
+exclude:
+  - README.md
+  - LICENSE

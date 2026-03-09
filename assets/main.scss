@@ -1,0 +1,42 @@
+---
+---
+
+@import "minima";
+
+.reading-entry {
+  margin-bottom: 1.4em;
+}
+
+.reading-entry a {
+  font-weight: 600;
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.reading-entry a:hover {
+  border-bottom-color: #333;
+}
+
+.reading-entry .description {
+  display: block;
+  margin-top: 0.2em;
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.5;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.75em;
+  color: #888;
+  background: #f4f4f4;
+  padding: 1px 8px;
+  border-radius: 3px;
+  margin-right: 4px;
+  margin-top: 0.3em;
+}
+
+.wrapper {
+  max-width: 640px;
+}

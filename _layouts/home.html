@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">{{ page.title }}</h1>
+
+  {{ content }}
+
+  {% for post in site.posts %}
+    <article>
+      <h2>{{ post.title }}</h2>
+      {{ post.content }}
+    </article>
+    <hr style="margin: 2em 0; border: none; border-top: 1px solid #eee;">
+  {% endfor %}
+</div>
